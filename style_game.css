@@ -1,0 +1,189 @@
+
+* {
+    box-sizing: border-box;
+    background-color: black;
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    
+  }
+  a {
+    text-decoration: none; /* Remove underline formatting */
+    color: inherit; /* Inherit text color from the parent element */
+  }
+
+.container1{
+    background-color: black;
+    margin:0px auto;
+   
+}
+.music{margin:0;
+cursor: pointer;}
+
+.container2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:azure;
+    border: 1px solid white;
+    height:400px;
+    width:800px;
+    margin:20px auto;
+}
+
+
+#start{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid white;
+    padding:20px;
+    margin:20px;
+    cursor:pointer;
+
+
+
+}
+
+#about{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid white;
+    padding:20px;
+    margin:20px;
+    cursor:pointer;
+}
+
+.start_container2{
+    margin:200px;
+    display:flex;
+    flex-direction: row;
+}
+
+h3{
+    margin:20px;
+    color:white;
+    display:flex;
+    width:200px;
+    height:300px;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+   cursor: pointer;
+
+}
+
+#home{
+ 
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid white;
+    width:200px;
+    height:50px;
+    position:relative;
+    bottom:50px;
+    left:50%;
+    transform: translateX(-50%); /* Adjust horizontally to center */
+   
+}
+#glassland_home{
+    color:white;
+}
+#stop{
+    color:white;
+}
+#glassland_home{
+    display:flex;
+    justify-content: center;
+}
+#glassland_container1{
+    
+    display:flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+   
+}
+.glassland_container2{
+    cursor: pointer;
+
+}
+#stop{
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+}
+.heart-container{
+    display:flex;
+    justify-content: center;
+}
+
+#gridCanvas{
+    margin:0;
+    padding: 0; /* Removes default padding */
+    position:absolute;
+}
+
+#arrow{
+    margin:0;
+    padding:0;
+}
+
+#vertical_arrow{
+   
+    position: relative;
+    background-color: transparent;
+    pointer-events: none;
+   
+}
+
+.level-completed-message {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    z-index: 400;
+   
+}
+#Adventure{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about_page{
+  color:white;
+  padding: 20px;
+
+
+}
+.container1_about{
+    display:flex;
+    justify-content: center;
+    margin:20px;
+
+ 
+    
+
+}
+#intro{
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+
+/*@media (max-width: 1200px) {
+  #heart{
+    top: calc(5%);
+    left:calc(20%);
+  }
+  }
+  */
